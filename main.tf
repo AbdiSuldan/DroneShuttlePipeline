@@ -7,8 +7,8 @@ provider "aws" {
 terraform {
     backend "s3" {
         encrypt = false
-        bucket = "my-tf-pipeline-abdi23"
-        dynamodb_table = "casestudy-tf-state-lock-dynamo"
+        bucket = "newpipeline12"
+        dynamodb_table = "Pipeline"
         key = "path/path/terraform-tfstate"
         region = "eu-west-1"
     }
