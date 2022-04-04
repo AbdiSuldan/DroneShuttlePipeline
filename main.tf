@@ -11,8 +11,7 @@ terraform {
         dynamodb_table = "Pipeline"
         key = "path/path/terraform-tfstate"
         region = "eu-west-1"
-        access_key = "AKIAYZEMPPU7I6ACKFEB"
-        secret_key = "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"
+   
     }
 }
 
